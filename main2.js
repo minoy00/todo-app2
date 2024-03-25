@@ -60,4 +60,5 @@ todoInputButton.addEventListener("click", function() {
   Element.setAttribute (속성명, 속성값); */
   input.setAttribute('type','checkbox');
   
+  todoInput.value = "";
 });

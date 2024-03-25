@@ -133,23 +133,16 @@ h1 {
   background-color: palevioletred;
   border-radius: inherit;
 }
-
-/* Todo 아이템의 글자에 긴 줄 추가
-.todo-item label span::after {
-  content: "";
-  display: block;
-  height: 1px; /* 줄의 높이를 조절 */
-  /* width: 100%; 줄의 길이를 조절 */
-  /* background-color: black; 줄의 색상을 조절 */
-  /* margin: 0 auto; */
-  /* 가운데 정렬 */
-/* } */ 
-
+ 
 .todo-item span {
   margin-left: 10px;
 }
 .todo-item input:checked + span {
   text-decoration: line-through;
   color: #aaa;
-  transition: color 0.2s linear;
+  transition: color 0.1s linear;
+}
+
+.styled-checkbox{
+  background-color: green;
 }
